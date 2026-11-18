@@ -170,7 +170,7 @@ document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.que
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change',render);
 const fd=s=>s.slice(8)+'/'+s.slice(5,7)+'/'+s.slice(0,4);
 $('#sub').textContent='Período de '+fd(dates[0])+' a '+fd(dates[dates.length-1])+' · '+num(new Set(R.map(r=>r.c)).size)+' cupons · '+num(R.length)+' itens vendidos';
-$('#ft').textContent='Fonte: planilha Modelo_Estudo_BI_Hortifruti_Vendas.xlsx (abas Fato_Vendas e Dim_Produto). Margem e lucro conforme custo informado na base.';
+$('#ft').textContent='Fonte: planilha Modelo_Estudo_BI_Hortifruti_Vendas.xlsx (abas Fato_Vendas e Dim_Produto). Margem e lucro conforme custo informado na base.JOSÉ LUIZ-IA E TECNOLOGIA';
 render();
 </script>
 </body>
